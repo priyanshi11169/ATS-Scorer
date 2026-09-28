@@ -39,6 +39,7 @@ async def lifespan(app:FastAPI):
   
   yield
   
+  
   logger.info("shutting down the api!!")
   
 app=FastAPI(
