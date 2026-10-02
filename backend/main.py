@@ -59,7 +59,6 @@ app.add_middleware(
   allow_headers=["*"],
 )
 
-app.include_router(router)
 
 if __name__ == "__main__":
   import uvicorn
