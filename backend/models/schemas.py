@@ -55,5 +55,3 @@ class AnalysisResponse(BaseModel):
   # Optinoal : When user also gives JD  
   jd_match_analysis : Optional[JDComparison] = None
   skill_validation_details : Optional[SkillValidationDetails] = None
-  
-  
